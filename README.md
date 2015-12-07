@@ -1,8 +1,5 @@
 # ElementalPi
-ElementalPi is a complete Raspberry Pi (A+ / B+ / 2) weather station solution designed to be as accurate and detailed as possible while maintaining simplicity and ease-of-use. 
-
-### About
-This is the code for the ElementalPi project.
+ElementalPi is a complete Raspberry Pi (A+ / B+ / 2) weather station solution designed to be as accurate and detailed as possible while maintaining simplicity and ease-of-use. This GitHub repo houses the code for the ElementalPi project.
 
 ### Goals
 The ElementalPi project will eventually design, manufacture and produce a Raspberry Pi 40-pin HAT / shield which will be available for individuals (yes, you!) to purchase, construct / solder and utilise in their own environments. ElementalPi will inevitably include three boards: the HAT / shield housing required components, an "air" board housing the temperature / humidity / pressure / air quality equipment, a wind anemometer / direction device and lastly a rain gauge - all connecting to ElementalPi using simple RJ11 telephone cabling.
@@ -18,9 +15,9 @@ Eventually, ElementalPi will be able to sense:
 - Light Level
 - UV rating
 - Air Analysis
--- General quality
--- Carbon Monoxide (CO)
--- Nitrogen Dioxide (NO2)
+  - General quality
+  - Carbon Monoxide (CO)
+  - Nitrogen Dioxide (NO2)
 
 ### Where can I buy one?
 ElementalPi is currently under heavy development, and it's expected to be ready for manufacturing in 2016.
