@@ -29,6 +29,7 @@ To download and start acquiring sensor data, follow this guide below...
 
 ### Package Prerequisites
 ElementalPi needs several packages to run correctly; ensure you run this command in `sudo`.
+
 `sudo apt-get install build-essential python-pip python-dev python-smbus git`
 
 ### Configuring i2c
@@ -36,6 +37,7 @@ i2c is an extremely common standard designed simply to allow one computer chip t
 
 #### Enabling i2x
 Firstly, you'll need to gather a few prerequisites...
+
 `sudo apt-get install i2c-tools python-smbus`
 
 Then, using RPi's own configuration utility you'll need to enable i2c kernel support...
@@ -48,6 +50,7 @@ Then, using RPi's own configuration utility you'll need to enable i2c kernel sup
 
 #### Testing i2c
 After you've installed the prerequisites, enabled i2c and rebooted your RPi, simply type...
+
 `sudo i2cdetect -y 0` or `sudo i2cdetect -y 1`
 
 Shortly after you should see something like this:
@@ -87,10 +90,10 @@ To be written.
 We appreciate all pull requests! Please don't hesitate to download the code, explore and tinker around.
 
 ## Thanks
-ElementalPi was inspired by Tom Hartley's work on his discontinued Raspberry Pi weather project, [AirPi](http://airpi.es/).
+ElementalPi was inspired by Tom Hartley's work on his discontinued Raspberry Pi weather project, [AirPi](http://airpi.es/).<br />
 This project also uses a multitude of Adafruit's Python-based libraries, which are open-source and available [here](https://github.com/adafruit).
 
 ## License
-Copyright 2015 © [Damian Worsdell](http://djw.net.au/)
-ElementalPi is licensed under the [MIT License](http://opensource.org/licenses/MIT).
+Copyright 2015 © [Damian Worsdell](http://djw.net.au/)<br />
+ElementalPi is licensed under the [MIT License](http://opensource.org/licenses/MIT).<br />
 We fully encourage anyone to download, modify and improve the ElementalPi project.
