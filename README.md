@@ -30,17 +30,13 @@ To download and start acquiring sensor data, follow this guide below...
 ### Package Prerequisites
 ElementalPi needs several packages to run correctly; ensure you run this command in `sudo`.
 
-`sudo apt-get install build-essential python-pip python-dev python-smbus git`
+`sudo apt-get install build-essential python-pip python-dev python-smbus i2c-tools git`
 
 ### Configuring i2c
 i2c is an extremely common standard designed simply to allow one computer chip to speak to another. ElementalPi utilises i2c to allow the Raspberry Pi to communicate with [Adafruit's BME280](https://www.adafruit.com/product/2652) breakout. As i2c doesn't come automatically enabled with the RPi, you'll have to follow these steps below to enable it.
 
-#### Enabling i2x
-Firstly, you'll need to gather a few prerequisites...
-
-`sudo apt-get install i2c-tools python-smbus`
-
-Then, using RPi's own configuration utility you'll need to enable i2c kernel support...
+#### Enabling i2c
+Using RPi's own configuration utility you'll need to enable i2c kernel support...
 - `sudo raspi-config`
 - Advanced Options
 - I2C
